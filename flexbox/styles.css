@@ -1,7 +1,13 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 /** Menu container and item styles ************ */
 .menu-container {
@@ -44,7 +50,7 @@
 }
 
 /** Photo container and item styles *********** */
-.photo.grid-container {
+div.photo.grid-container {
     display: flex;
     justify-content: center;
 }
@@ -54,7 +60,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    margin: 0 auto;
+    /* flex-direction: column; */
 }
 
 .photo-grid-item {
