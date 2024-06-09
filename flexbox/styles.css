@@ -61,7 +61,8 @@ div.photo.grid-container {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    /* flex-direction: column; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .photo-grid-item {
