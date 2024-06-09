@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/** Menu container and item styles ************ */
 .menu-container {
     color: #fff;
     background-color: #5995DA;
@@ -29,6 +29,7 @@
     margin-left: 20px;
 }
 
+/** Header container and item styles ********** */
 .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
@@ -43,3 +44,5 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/** Photo container and item styles *********** */
