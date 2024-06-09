@@ -70,3 +70,9 @@ div.photo.grid-container {
     width: 300px;
     height: 300px;
 }
+
+/** Footer Contaner and item styels *********** */
+.footer {
+    display: flex;
+    justify-content: center;
+}
